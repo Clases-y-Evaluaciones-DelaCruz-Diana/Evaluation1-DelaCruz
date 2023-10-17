@@ -15193,8 +15193,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#NOVENO: Se revisa el numero de filas y columnas como resultado final de los cambios del merge1</span>
-<span class="n">merge1</span><span class="o">.</span><span class="n">shape</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="o">=</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="n">merge1</span>
 </pre></div>
 
      </div>
@@ -15216,9 +15216,113 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>(98, 4)</pre>
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Education Expenditure ($M)</th>
+      <th>Annual GDP</th>
+      <th>Crude Oil Reserves</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>UNITED STATES</td>
+      <td>1,014,715.40</td>
+      <td>25,744,100</td>
+      <td>44,418.00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>UNITED KINGDOM</td>
+      <td>148,933.50</td>
+      <td>3,070,600</td>
+      <td>2,500.00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>GERMANY</td>
+      <td>197,848.90</td>
+      <td>4,075,395</td>
+      <td>115.2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>FRANCE</td>
+      <td>150,980.20</td>
+      <td>2,782,905</td>
+      <td>61.7</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>JAPAN</td>
+      <td>155,149.20</td>
+      <td>4,233,538</td>
+      <td>44.1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>UZBEKISTAN</td>
+      <td>2,964.80</td>
+      <td>80,392</td>
+      <td>594</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>VENEZUELA</td>
+      <td>1,557.60</td>
+      <td>102,021</td>
+      <td>303,806.00</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>VIET NAM</td>
+      <td>13,478.30</td>
+      <td>406,452</td>
+      <td>4,400.00</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>YEMEN</td>
+      <td>1,386.30</td>
+      <td>21,062</td>
+      <td>3,000.00</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>SOUTH AFRICA</td>
+      <td>20,902.30</td>
+      <td>405,705</td>
+      <td>15</td>
+    </tr>
+  </tbody>
+</table>
+<p>98 rows × 4 columns</p>
+</div>
 </div>
 
 </div>
@@ -15256,8 +15360,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#ONCEAVO: Se revisa el numero de filas y columnas </span>
-<span class="n">countryisos</span><span class="o">.</span><span class="n">shape</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#NOVENO: Se revisa el numero de filas y columnas como resultado final de los cambios del merge1</span>
+<span class="n">merge1</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
      </div>
@@ -15281,7 +15385,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>(171, 5)</pre>
+<pre>(98, 4)</pre>
 </div>
 
 </div>
@@ -15298,8 +15402,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#DOCEAVO: Se revisa el nombre de las cabeceras de cada columna </span>
-<span class="n">countryisos</span><span class="o">.</span><span class="n">columns</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#ONCEAVO: Se revisa el numero de filas y columnas </span>
+<span class="n">countryisos</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
      </div>
@@ -15323,7 +15427,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>Index([&#39;Country&#39;, &#39;Officialstatename&#39;, &#39;InternetccTLD&#39;, &#39;iso2&#39;, &#39;iso3&#39;], dtype=&#39;object&#39;)</pre>
+<pre>(171, 5)</pre>
 </div>
 
 </div>
@@ -15340,9 +15444,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#TRECEAVO: Se comienza con el codigo para realizar Fuzzy merge para obtener el mayor numero de data relacionada de los paises</span>
-<span class="n">OnlyMerge1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
-<span class="n">OnlyMerge1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#DOCEAVO: Se revisa el nombre de las cabeceras de cada columna </span>
+<span class="n">countryisos</span><span class="o">.</span><span class="n">columns</span>
 </pre></div>
 
      </div>
@@ -15366,104 +15469,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;ALBANIA &#39;,
- &#39;ALGERIA &#39;,
- &#39;ANGOLA &#39;,
- &#39;ARGENTINA &#39;,
- &#39;AUSTRALIA &#39;,
- &#39;AUSTRIA &#39;,
- &#39;AZERBAIJAN &#39;,
- &#39;BAHRAIN &#39;,
- &#39;BANGLADESH &#39;,
- &#39;BARBADOS &#39;,
- &#39;BELARUS &#39;,
- &#39;BELIZE &#39;,
- &#39;BENIN &#39;,
- &#39;BOLIVIA &#39;,
- &#39;BRAZIL &#39;,
- &#39;BRUNEI &#39;,
- &#39;BULGARIA &#39;,
- &#39;CAMEROON &#39;,
- &#39;CANADA &#39;,
- &#39;CHAD &#39;,
- &#39;CHILE &#39;,
- &#39;CHINA &#39;,
- &#39;COLOMBIA &#39;,
- &#39;CROATIA &#39;,
- &#39;CUBA &#39;,
- &#39;CZECHIA &#39;,
- &#34;CÔTE D&#39;IVOIRE &#34;,
- &#39;DEMOCRATIC REPUBLIC OF THE CONGO &#39;,
- &#39;DENMARK &#39;,
- &#39;ECUADOR &#39;,
- &#39;EGYPT &#39;,
- &#39;EQUATORIAL GUINEA &#39;,
- &#39;ETHIOPIA &#39;,
- &#39;FRANCE &#39;,
- &#39;GABON &#39;,
- &#39;GEORGIA &#39;,
- &#39;GERMANY &#39;,
- &#39;GHANA &#39;,
- &#39;GREECE &#39;,
- &#39;GUATEMALA &#39;,
- &#39;HUNGARY &#39;,
- &#39;INDIA &#39;,
- &#39;INDONESIA &#39;,
- &#39;IRAN &#39;,
- &#39;IRAQ &#39;,
- &#39;ISRAEL &#39;,
- &#39;ITALY &#39;,
- &#39;JAPAN &#39;,
- &#39;JORDAN &#39;,
- &#39;KAZAKHSTAN &#39;,
- &#39;KUWAIT &#39;,
- &#39;KYRGYZSTAN &#39;,
- &#39;LIBYA &#39;,
- &#39;LITHUANIA &#39;,
- &#39;MALAYSIA &#39;,
- &#39;MAURITANIA &#39;,
- &#39;MEXICO &#39;,
- &#39;MOROCCO &#39;,
- &#39;MYANMAR &#39;,
- &#39;NETHERLANDS &#39;,
- &#39;NEW ZEALAND &#39;,
- &#39;NIGER &#39;,
- &#39;NIGERIA &#39;,
- &#39;NORWAY &#39;,
- &#39;OMAN &#39;,
- &#39;PAKISTAN &#39;,
- &#39;PAPUA NEW GUINEA &#39;,
- &#39;PERU &#39;,
- &#39;PHILIPPINES &#39;,
- &#39;POLAND &#39;,
- &#39;QATAR &#39;,
- &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;ROMANIA &#39;,
- &#39;RUSSIA &#39;,
- &#39;SAUDI ARABIA &#39;,
- &#39;SERBIA &#39;,
- &#39;SLOVAKIA &#39;,
- &#39;SOUTH AFRICA &#39;,
- &#39;SOUTH SUDAN &#39;,
- &#39;SPAIN &#39;,
- &#39;SUDAN &#39;,
- &#39;SURINAME &#39;,
- &#39;SYRIA &#39;,
- &#39;TAJIKISTAN &#39;,
- &#39;THAILAND &#39;,
- &#39;TRINIDAD AND TOBAGO &#39;,
- &#39;TUNISIA &#39;,
- &#39;TURKMENISTAN &#39;,
- &#39;TÜRKIYE &#39;,
- &#39;UGANDA &#39;,
- &#39;UKRAINE &#39;,
- &#39;UNITED ARAB EMIRATES &#39;,
- &#39;UNITED KINGDOM &#39;,
- &#39;UNITED STATES &#39;,
- &#39;UZBEKISTAN &#39;,
- &#39;VENEZUELA &#39;,
- &#39;VIET NAM &#39;,
- &#39;YEMEN &#39;}</pre>
+<pre>Index([&#39;Country&#39;, &#39;Officialstatename&#39;, &#39;InternetccTLD&#39;, &#39;iso2&#39;, &#39;iso3&#39;], dtype=&#39;object&#39;)</pre>
 </div>
 
 </div>
@@ -15480,8 +15486,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Onlycountryisos</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
-<span class="n">Onlycountryisos</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="o">=</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="n">countryisos</span>
 </pre></div>
 
      </div>
@@ -15503,179 +15509,125 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;AFGHANISTAN&#39;,
- &#39;ALBANIA&#39;,
- &#39;ALGERIA&#39;,
- &#39;ANGOLA&#39;,
- &#39;ANTIGUA AND BARBUDA&#39;,
- &#39;ARGENTINA&#39;,
- &#39;ARMENIA&#39;,
- &#39;AUSTRALIA&#39;,
- &#39;AUSTRIA&#39;,
- &#39;AZERBAIJAN&#39;,
- &#39;BAHAMAS (THE)&#39;,
- &#39;BAHRAIN&#39;,
- &#39;BANGLADESH&#39;,
- &#39;BARBADOS&#39;,
- &#39;BELARUS&#39;,
- &#39;BELGIUM&#39;,
- &#39;BELIZE&#39;,
- &#39;BENIN&#39;,
- &#39;BHUTAN&#39;,
- &#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;,
- &#39;BOSNIA AND HERZEGOVINA&#39;,
- &#39;BOTSWANA&#39;,
- &#39;BRAZIL&#39;,
- &#39;BRUNEI DARUSSALAM&#39;,
- &#39;BULGARIA&#39;,
- &#39;BURKINA FASO&#39;,
- &#39;BURUNDI&#39;,
- &#39;CABO VERDE&#39;,
- &#39;CAMBODIA&#39;,
- &#39;CAMEROON&#39;,
- &#39;CANADA&#39;,
- &#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;,
- &#39;CHAD&#39;,
- &#39;CHILE&#39;,
- &#39;CHINA&#39;,
- &#39;COLOMBIA&#39;,
- &#39;COMOROS (THE)&#39;,
- &#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
- &#39;CONGO (THE)&#39;,
- &#39;COSTA RICA&#39;,
- &#39;CROATIA&#39;,
- &#39;CUBA&#39;,
- &#39;CYPRUS&#39;,
- &#39;CZECHIA&#39;,
- &#34;C√îTE D&#39;IVOIRE&#34;,
- &#39;DENMARK&#39;,
- &#39;DJIBOUTI&#39;,
- &#39;DOMINICAN REPUBLIC (THE)&#39;,
- &#39;ECUADOR&#39;,
- &#39;EGYPT&#39;,
- &#39;EL SALVADOR&#39;,
- &#39;EQUATORIAL GUINEA&#39;,
- &#39;ESTONIA&#39;,
- &#39;ESWATINI&#39;,
- &#39;ETHIOPIA&#39;,
- &#39;FIJI&#39;,
- &#39;FINLAND&#39;,
- &#39;FRANCE&#39;,
- &#39;GABON&#39;,
- &#39;GAMBIA (THE)&#39;,
- &#39;GEORGIA&#39;,
- &#39;GERMANY&#39;,
- &#39;GHANA&#39;,
- &#39;GREECE&#39;,
- &#39;GRENADA&#39;,
- &#39;GUATEMALA&#39;,
- &#39;GUINEA&#39;,
- &#39;GUINEA-BISSAU&#39;,
- &#39;GUYANA&#39;,
- &#39;HAITI&#39;,
- &#39;HONDURAS&#39;,
- &#39;HUNGARY&#39;,
- &#39;ICELAND&#39;,
- &#39;INDIA&#39;,
- &#39;INDONESIA&#39;,
- &#39;IRAN (ISLAMIC REPUBLIC OF)&#39;,
- &#39;IRAQ&#39;,
- &#39;IRELAND&#39;,
- &#39;ITALY&#39;,
- &#39;JAMAICA&#39;,
- &#39;JAPAN&#39;,
- &#39;JORDAN&#39;,
- &#39;KAZAKHSTAN&#39;,
- &#39;KENYA&#39;,
- &#39;KOREA (THE REPUBLIC OF)&#39;,
- &#39;KUWAIT&#39;,
- &#39;KYRGYZSTAN&#39;,
- &#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;,
- &#39;LATVIA&#39;,
- &#39;LEBANON&#39;,
- &#39;LESOTHO&#39;,
- &#39;LIBERIA&#39;,
- &#39;LIBYA&#39;,
- &#39;LITHUANIA&#39;,
- &#39;LUXEMBOURG&#39;,
- &#39;MADAGASCAR&#39;,
- &#39;MALAWI&#39;,
- &#39;MALAYSIA&#39;,
- &#39;MALDIVES&#39;,
- &#39;MALI&#39;,
- &#39;MALTA&#39;,
- &#39;MAURITANIA&#39;,
- &#39;MAURITIUS&#39;,
- &#39;MEXICO&#39;,
- &#39;MICRONESIA (FEDERATED STATES OF)&#39;,
- &#39;MOLDOVA (THE REPUBLIC OF)&#39;,
- &#39;MONGOLIA&#39;,
- &#39;MONTENEGRO&#39;,
- &#39;MOROCCO&#39;,
- &#39;MOZAMBIQUE&#39;,
- &#39;MYANMAR&#39;,
- &#39;NAMIBIA&#39;,
- &#39;NEPAL&#39;,
- &#39;NETHERLANDS (THE)&#39;,
- &#39;NEW ZEALAND&#39;,
- &#39;NICARAGUA&#39;,
- &#39;NIGER (THE)&#39;,
- &#39;NIGERIA&#39;,
- &#39;NORTH MACEDONIA&#39;,
- &#39;NORWAY&#39;,
- &#39;OMAN&#39;,
- &#39;PAKISTAN&#39;,
- &#39;PANAMA&#39;,
- &#39;PAPUA NEW GUINEA&#39;,
- &#39;PARAGUAY&#39;,
- &#39;PERU&#39;,
- &#39;PHILIPPINES (THE)&#39;,
- &#39;POLAND&#39;,
- &#39;PORTUGAL&#39;,
- &#39;QATAR&#39;,
- &#39;ROMANIA&#39;,
- &#39;RUSSIAN FEDERATION (THE)&#39;,
- &#39;RWANDA&#39;,
- &#39;SAMOA&#39;,
- &#39;SAO TOME AND PRINCIPE&#39;,
- &#39;SAUDI ARABIA&#39;,
- &#39;SENEGAL&#39;,
- &#39;SERBIA&#39;,
- &#39;SEYCHELLES&#39;,
- &#39;SIERRA LEONE&#39;,
- &#39;SINGAPORE&#39;,
- &#39;SLOVAKIA&#39;,
- &#39;SLOVENIA&#39;,
- &#39;SOLOMON ISLANDS&#39;,
- &#39;SOUTH SUDAN&#39;,
- &#39;SPAIN&#39;,
- &#39;SRI LANKA&#39;,
- &#39;SUDAN (THE)&#39;,
- &#39;SURINAME&#39;,
- &#39;SWEDEN&#39;,
- &#39;SWITZERLAND&#39;,
- &#39;TAJIKISTAN&#39;,
- &#39;TANZANIA, THE UNITED REPUBLIC OF&#39;,
- &#39;THAILAND&#39;,
- &#39;TIMOR-LESTE&#39;,
- &#39;TOGO&#39;,
- &#39;TRINIDAD AND TOBAGO&#39;,
- &#39;TUNISIA&#39;,
- &#39;TURKEY&#39;,
- &#39;TURKMENISTAN&#39;,
- &#39;UGANDA&#39;,
- &#39;UKRAINE&#39;,
- &#39;UNITED ARAB EMIRATES (THE)&#39;,
- &#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
- &#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;,
- &#39;URUGUAY&#39;,
- &#39;UZBEKISTAN&#39;,
- &#39;VIET NAM&#39;,
- &#39;YEMEN&#39;,
- &#39;ZAMBIA&#39;,
- &#39;ZIMBABWE&#39;}</pre>
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Officialstatename</th>
+      <th>InternetccTLD</th>
+      <th>iso2</th>
+      <th>iso3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AFGHANISTAN</td>
+      <td>The Islamic Republic of Afghanistan</td>
+      <td>.af</td>
+      <td>AF</td>
+      <td>AFG</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ALBANIA</td>
+      <td>The Republic of Albania</td>
+      <td>.al</td>
+      <td>AL</td>
+      <td>ALB</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ALGERIA</td>
+      <td>The People's Democratic Republic of Algeria</td>
+      <td>.dz</td>
+      <td>DZ</td>
+      <td>DZA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ANGOLA</td>
+      <td>The Republic of Angola</td>
+      <td>.ao</td>
+      <td>AO</td>
+      <td>AGO</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ANTIGUA AND BARBUDA</td>
+      <td>Antigua and Barbuda</td>
+      <td>.ag</td>
+      <td>AG</td>
+      <td>ATG</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>166</th>
+      <td>UZBEKISTAN</td>
+      <td>The Republic of Uzbekistan</td>
+      <td>.uz</td>
+      <td>UZ</td>
+      <td>UZB</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>VIET NAM</td>
+      <td>The Socialist Republic of Viet Nam</td>
+      <td>.vn</td>
+      <td>VN</td>
+      <td>VNM</td>
+    </tr>
+    <tr>
+      <th>168</th>
+      <td>YEMEN</td>
+      <td>The Republic of Yemen</td>
+      <td>.ye</td>
+      <td>YE</td>
+      <td>YEM</td>
+    </tr>
+    <tr>
+      <th>169</th>
+      <td>ZAMBIA</td>
+      <td>The Republic of Zambia</td>
+      <td>.zm</td>
+      <td>ZM</td>
+      <td>ZMB</td>
+    </tr>
+    <tr>
+      <th>170</th>
+      <td>ZIMBABWE</td>
+      <td>The Republic of Zimbabwe</td>
+      <td>.zw</td>
+      <td>ZW</td>
+      <td>ZWE</td>
+    </tr>
+  </tbody>
+</table>
+<p>171 rows × 5 columns</p>
+</div>
 </div>
 
 </div>
@@ -15692,10 +15644,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Se instala en el Anaconda "thefuzz"</span>
-<span class="kn">from</span> <span class="nn">thefuzz</span> <span class="kn">import</span> <span class="n">process</span> <span class="k">as</span> <span class="n">fz</span>
-
-<span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#TRECEAVO: Se comienza con el codigo para realizar Fuzzy merge para obtener el mayor numero de data relacionada de los paises</span>
+<span class="n">OnlyMerge1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlyMerge1</span>
 </pre></div>
 
      </div>
@@ -15719,179 +15670,25 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;AFGHANISTAN&#39;, (&#39;GHANA &#39;, 72)),
- (&#39;ALBANIA&#39;, (&#39;ALBANIA &#39;, 100)),
- (&#39;ALGERIA&#39;, (&#39;ALGERIA &#39;, 100)),
- (&#39;ANGOLA&#39;, (&#39;ANGOLA &#39;, 100)),
- (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;BARBADOS &#39;, 60)),
- (&#39;ARGENTINA&#39;, (&#39;ARGENTINA &#39;, 100)),
- (&#39;ARMENIA&#39;, (&#39;ARGENTINA &#39;, 75)),
- (&#39;AUSTRALIA&#39;, (&#39;AUSTRALIA &#39;, 100)),
- (&#39;AUSTRIA&#39;, (&#39;AUSTRIA &#39;, 100)),
- (&#39;AZERBAIJAN&#39;, (&#39;AZERBAIJAN &#39;, 100)),
- (&#39;BAHAMAS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;BAHRAIN&#39;, (&#39;BAHRAIN &#39;, 100)),
- (&#39;BANGLADESH&#39;, (&#39;BANGLADESH &#39;, 100)),
- (&#39;BARBADOS&#39;, (&#39;BARBADOS &#39;, 100)),
- (&#39;BELARUS&#39;, (&#39;BELARUS &#39;, 100)),
- (&#39;BELGIUM&#39;, (&#39;BELIZE &#39;, 62)),
- (&#39;BELIZE&#39;, (&#39;BELIZE &#39;, 100)),
- (&#39;BENIN&#39;, (&#39;BENIN &#39;, 100)),
- (&#39;BHUTAN&#39;, (&#39;BAHRAIN &#39;, 62)),
- (&#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;, (&#39;BOLIVIA &#39;, 90)),
- (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;INDIA &#39;, 54)),
- (&#39;BOTSWANA&#39;, (&#39;GHANA &#39;, 54)),
- (&#39;BRAZIL&#39;, (&#39;BRAZIL &#39;, 100)),
- (&#39;BRUNEI DARUSSALAM&#39;, (&#39;BRUNEI &#39;, 90)),
- (&#39;BULGARIA&#39;, (&#39;BULGARIA &#39;, 100)),
- (&#39;BURKINA FASO&#39;, (&#39;BULGARIA &#39;, 56)),
- (&#39;BURUNDI&#39;, (&#39;BRUNEI &#39;, 77)),
- (&#39;CABO VERDE&#39;, (&#39;GABON &#39;, 54)),
- (&#39;CAMBODIA&#39;, (&#39;COLOMBIA &#39;, 62)),
- (&#39;CAMEROON&#39;, (&#39;CAMEROON &#39;, 100)),
- (&#39;CANADA&#39;, (&#39;CANADA &#39;, 100)),
- (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 69)),
- (&#39;CHAD&#39;, (&#39;CHAD &#39;, 100)),
- (&#39;CHILE&#39;, (&#39;CHILE &#39;, 100)),
- (&#39;CHINA&#39;, (&#39;CHINA &#39;, 100)),
- (&#39;COLOMBIA&#39;, (&#39;COLOMBIA &#39;, 100)),
- (&#39;COMOROS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
-  (&#39;DEMOCRATIC REPUBLIC OF THE CONGO &#39;, 95)),
- (&#39;CONGO (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;COSTA RICA&#39;, (&#39;SOUTH AFRICA &#39;, 64)),
- (&#39;CROATIA&#39;, (&#39;CROATIA &#39;, 100)),
- (&#39;CUBA&#39;, (&#39;CUBA &#39;, 100)),
- (&#39;CYPRUS&#39;, (&#39;PERU &#39;, 68)),
- (&#39;CZECHIA&#39;, (&#39;CZECHIA &#39;, 100)),
- (&#34;C√îTE D&#39;IVOIRE&#34;, (&#34;CÔTE D&#39;IVOIRE &#34;, 96)),
- (&#39;DENMARK&#39;, (&#39;DENMARK &#39;, 100)),
- (&#39;DJIBOUTI&#39;, (&#39;SAUDI ARABIA &#39;, 45)),
- (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;INDIA &#39;, 72)),
- (&#39;ECUADOR&#39;, (&#39;ECUADOR &#39;, 100)),
- (&#39;EGYPT&#39;, (&#39;EGYPT &#39;, 100)),
- (&#39;EL SALVADOR&#39;, (&#39;ECUADOR &#39;, 56)),
- (&#39;EQUATORIAL GUINEA&#39;, (&#39;EQUATORIAL GUINEA &#39;, 100)),
- (&#39;ESTONIA&#39;, (&#39;ETHIOPIA &#39;, 67)),
- (&#39;ESWATINI&#39;, (&#39;SPAIN &#39;, 62)),
- (&#39;ETHIOPIA&#39;, (&#39;ETHIOPIA &#39;, 100)),
- (&#39;FIJI&#39;, (&#34;CÔTE D&#39;IVOIRE &#34;, 45)),
- (&#39;FINLAND&#39;, (&#39;THAILAND &#39;, 67)),
- (&#39;FRANCE&#39;, (&#39;FRANCE &#39;, 100)),
- (&#39;GABON&#39;, (&#39;GABON &#39;, 100)),
- (&#39;GAMBIA (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;GEORGIA&#39;, (&#39;GEORGIA &#39;, 100)),
- (&#39;GERMANY&#39;, (&#39;GERMANY &#39;, 100)),
- (&#39;GHANA&#39;, (&#39;GHANA &#39;, 100)),
- (&#39;GREECE&#39;, (&#39;GREECE &#39;, 100)),
- (&#39;GRENADA&#39;, (&#39;CANADA &#39;, 62)),
- (&#39;GUATEMALA&#39;, (&#39;GUATEMALA &#39;, 100)),
- (&#39;GUINEA&#39;, (&#39;EQUATORIAL GUINEA &#39;, 90)),
- (&#39;GUINEA-BISSAU&#39;, (&#39;EQUATORIAL GUINEA &#39;, 60)),
- (&#39;GUYANA&#39;, (&#39;GHANA &#39;, 73)),
- (&#39;HAITI&#39;, (&#39;KUWAIT &#39;, 55)),
- (&#39;HONDURAS&#39;, (&#39;INDIA &#39;, 54)),
- (&#39;HUNGARY&#39;, (&#39;HUNGARY &#39;, 100)),
- (&#39;ICELAND&#39;, (&#39;THAILAND &#39;, 67)),
- (&#39;INDIA&#39;, (&#39;INDIA &#39;, 100)),
- (&#39;INDONESIA&#39;, (&#39;INDONESIA &#39;, 100)),
- (&#39;IRAN (ISLAMIC REPUBLIC OF)&#39;, (&#39;IRAN &#39;, 90)),
- (&#39;IRAQ&#39;, (&#39;IRAQ &#39;, 100)),
- (&#39;IRELAND&#39;, (&#39;IRAN &#39;, 73)),
- (&#39;ITALY&#39;, (&#39;ITALY &#39;, 100)),
- (&#39;JAMAICA&#39;, (&#39;ALBANIA &#39;, 57)),
- (&#39;JAPAN&#39;, (&#39;JAPAN &#39;, 100)),
- (&#39;JORDAN&#39;, (&#39;JORDAN &#39;, 100)),
- (&#39;KAZAKHSTAN&#39;, (&#39;KAZAKHSTAN &#39;, 100)),
- (&#39;KENYA&#39;, (&#39;TURKMENISTAN &#39;, 54)),
- (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 79)),
- (&#39;KUWAIT&#39;, (&#39;KUWAIT &#39;, 100)),
- (&#39;KYRGYZSTAN&#39;, (&#39;KYRGYZSTAN &#39;, 100)),
- (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;LATVIA&#39;, (&#39;ALBANIA &#39;, 62)),
- (&#39;LEBANON&#39;, (&#39;ALBANIA &#39;, 57)),
- (&#39;LESOTHO&#39;, (&#39;ETHIOPIA &#39;, 53)),
- (&#39;LIBERIA&#39;, (&#39;ALGERIA &#39;, 71)),
- (&#39;LIBYA&#39;, (&#39;LIBYA &#39;, 100)),
- (&#39;LITHUANIA&#39;, (&#39;LITHUANIA &#39;, 100)),
- (&#39;LUXEMBOURG&#39;, (&#39;GEORGIA &#39;, 47)),
- (&#39;MADAGASCAR&#39;, (&#39;MALAYSIA &#39;, 56)),
- (&#39;MALAWI&#39;, (&#39;MALAYSIA &#39;, 71)),
- (&#39;MALAYSIA&#39;, (&#39;MALAYSIA &#39;, 100)),
- (&#39;MALDIVES&#39;, (&#39;BANGLADESH &#39;, 56)),
- (&#39;MALI&#39;, (&#39;MALAYSIA &#39;, 68)),
- (&#39;MALTA&#39;, (&#39;GUATEMALA &#39;, 80)),
- (&#39;MAURITANIA&#39;, (&#39;MAURITANIA &#39;, 100)),
- (&#39;MAURITIUS&#39;, (&#39;MAURITANIA &#39;, 74)),
- (&#39;MEXICO&#39;, (&#39;MEXICO &#39;, 100)),
- (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;UNITED STATES &#39;, 86)),
- (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 79)),
- (&#39;MONGOLIA&#39;, (&#39;ANGOLA &#39;, 71)),
- (&#39;MONTENEGRO&#39;, (&#39;NIGER &#39;, 54)),
- (&#39;MOROCCO&#39;, (&#39;MOROCCO &#39;, 100)),
- (&#39;MOZAMBIQUE&#39;, (&#39;OMAN &#39;, 45)),
- (&#39;MYANMAR&#39;, (&#39;MYANMAR &#39;, 100)),
- (&#39;NAMIBIA&#39;, (&#39;ALBANIA &#39;, 57)),
- (&#39;NEPAL&#39;, (&#39;EQUATORIAL GUINEA &#39;, 54)),
- (&#39;NETHERLANDS (THE)&#39;, (&#39;NETHERLANDS &#39;, 95)),
- (&#39;NEW ZEALAND&#39;, (&#39;NEW ZEALAND &#39;, 100)),
- (&#39;NICARAGUA&#39;, (&#39;NIGER &#39;, 54)),
- (&#39;NIGER (THE)&#39;, (&#39;NIGER &#39;, 90)),
- (&#39;NIGERIA&#39;, (&#39;NIGERIA &#39;, 100)),
- (&#39;NORTH MACEDONIA&#39;, (&#39;IRAN &#39;, 64)),
- (&#39;NORWAY&#39;, (&#39;NORWAY &#39;, 100)),
- (&#39;OMAN&#39;, (&#39;OMAN &#39;, 100)),
- (&#39;PAKISTAN&#39;, (&#39;PAKISTAN &#39;, 100)),
- (&#39;PANAMA&#39;, (&#39;CANADA &#39;, 67)),
- (&#39;PAPUA NEW GUINEA&#39;, (&#39;PAPUA NEW GUINEA &#39;, 100)),
- (&#39;PARAGUAY&#39;, (&#39;PERU &#39;, 50)),
- (&#39;PERU&#39;, (&#39;PERU &#39;, 100)),
- (&#39;PHILIPPINES (THE)&#39;, (&#39;PHILIPPINES &#39;, 95)),
- (&#39;POLAND&#39;, (&#39;POLAND &#39;, 100)),
- (&#39;PORTUGAL&#39;, (&#39;ITALY &#39;, 54)),
- (&#39;QATAR&#39;, (&#39;QATAR &#39;, 100)),
- (&#39;ROMANIA&#39;, (&#39;ROMANIA &#39;, 100)),
- (&#39;RUSSIAN FEDERATION (THE)&#39;, (&#39;RUSSIA &#39;, 90)),
- (&#39;RWANDA&#39;, (&#39;IRAN &#39;, 68)),
- (&#39;SAMOA&#39;, (&#39;ANGOLA &#39;, 55)),
- (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;NIGER &#39;, 54)),
- (&#39;SAUDI ARABIA&#39;, (&#39;SAUDI ARABIA &#39;, 100)),
- (&#39;SENEGAL&#39;, (&#39;VENEZUELA &#39;, 50)),
- (&#39;SERBIA&#39;, (&#39;SERBIA &#39;, 100)),
- (&#39;SEYCHELLES&#39;, (&#39;CHILE &#39;, 54)),
- (&#39;SIERRA LEONE&#39;, (&#39;SERBIA &#39;, 60)),
- (&#39;SINGAPORE&#39;, (&#39;SURINAME &#39;, 59)),
- (&#39;SLOVAKIA&#39;, (&#39;SLOVAKIA &#39;, 100)),
- (&#39;SLOVENIA&#39;, (&#39;SLOVAKIA &#39;, 75)),
- (&#39;SOLOMON ISLANDS&#39;, (&#39;OMAN &#39;, 68)),
- (&#39;SOUTH SUDAN&#39;, (&#39;SOUTH SUDAN &#39;, 100)),
- (&#39;SPAIN&#39;, (&#39;SPAIN &#39;, 100)),
- (&#39;SRI LANKA&#39;, (&#39;SERBIA &#39;, 60)),
- (&#39;SUDAN (THE)&#39;, (&#39;SUDAN &#39;, 90)),
- (&#39;SURINAME&#39;, (&#39;SURINAME &#39;, 100)),
- (&#39;SWEDEN&#39;, (&#39;SUDAN &#39;, 55)),
- (&#39;SWITZERLAND&#39;, (&#39;IRAN &#39;, 68)),
- (&#39;TAJIKISTAN&#39;, (&#39;TAJIKISTAN &#39;, 100)),
- (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;THAILAND&#39;, (&#39;THAILAND &#39;, 100)),
- (&#39;TIMOR-LESTE&#39;, (&#34;CÔTE D&#39;IVOIRE &#34;, 49)),
- (&#39;TOGO&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 68)),
- (&#39;TRINIDAD AND TOBAGO&#39;, (&#39;TRINIDAD AND TOBAGO &#39;, 100)),
- (&#39;TUNISIA&#39;, (&#39;TUNISIA &#39;, 100)),
- (&#39;TURKEY&#39;, (&#39;TURKMENISTAN &#39;, 75)),
- (&#39;TURKMENISTAN&#39;, (&#39;TURKMENISTAN &#39;, 100)),
- (&#39;UGANDA&#39;, (&#39;UGANDA &#39;, 100)),
- (&#39;UKRAINE&#39;, (&#39;UKRAINE &#39;, 100)),
- (&#39;UNITED ARAB EMIRATES (THE)&#39;, (&#39;UNITED ARAB EMIRATES &#39;, 95)),
- (&#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
-  (&#39;UNITED KINGDOM &#39;, 90)),
- (&#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;, (&#39;UNITED STATES &#39;, 90)),
- (&#39;URUGUAY&#39;, (&#39;HUNGARY &#39;, 57)),
- (&#39;UZBEKISTAN&#39;, (&#39;UZBEKISTAN &#39;, 100)),
- (&#39;VIET NAM&#39;, (&#39;VIET NAM &#39;, 100)),
- (&#39;YEMEN&#39;, (&#39;YEMEN &#39;, 100)),
- (&#39;ZAMBIA&#39;, (&#39;ALBANIA &#39;, 62)),
- (&#39;ZIMBABWE&#39;, (&#39;LIBYA &#39;, 54))]</pre>
+<pre>{&#39;BOLIVIA&#39;,
+ &#39;BRUNEI&#39;,
+ &#34;CÔTE D&#39;IVOIRE&#34;,
+ &#39;DEMOCRATIC REPUBLIC OF THE CONGO&#39;,
+ &#39;IRAN&#39;,
+ &#39;ISRAEL&#39;,
+ &#39;NETHERLANDS&#39;,
+ &#39;NIGER&#39;,
+ &#39;PHILIPPINES&#39;,
+ &#39;REPUBLIC OF THE CONGO&#39;,
+ &#39;RUSSIA&#39;,
+ &#39;SOUTH AFRICA&#39;,
+ &#39;SUDAN&#39;,
+ &#39;SYRIA&#39;,
+ &#39;TÜRKIYE&#39;,
+ &#39;UNITED ARAB EMIRATES&#39;,
+ &#39;UNITED KINGDOM&#39;,
+ &#39;UNITED STATES&#39;,
+ &#39;VENEZUELA&#39;}</pre>
 </div>
 
 </div>
@@ -15908,8 +15705,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)</span>
- <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;=</span><span class="mi">87</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Onlycountryisos</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">Onlycountryisos</span>
 </pre></div>
 
      </div>
@@ -15933,101 +15730,98 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;ALBANIA&#39;, (&#39;ALBANIA &#39;, 100)),
- (&#39;ALGERIA&#39;, (&#39;ALGERIA &#39;, 100)),
- (&#39;ANGOLA&#39;, (&#39;ANGOLA &#39;, 100)),
- (&#39;ARGENTINA&#39;, (&#39;ARGENTINA &#39;, 100)),
- (&#39;AUSTRALIA&#39;, (&#39;AUSTRALIA &#39;, 100)),
- (&#39;AUSTRIA&#39;, (&#39;AUSTRIA &#39;, 100)),
- (&#39;AZERBAIJAN&#39;, (&#39;AZERBAIJAN &#39;, 100)),
- (&#39;BAHRAIN&#39;, (&#39;BAHRAIN &#39;, 100)),
- (&#39;BANGLADESH&#39;, (&#39;BANGLADESH &#39;, 100)),
- (&#39;BARBADOS&#39;, (&#39;BARBADOS &#39;, 100)),
- (&#39;BELARUS&#39;, (&#39;BELARUS &#39;, 100)),
- (&#39;BELIZE&#39;, (&#39;BELIZE &#39;, 100)),
- (&#39;BENIN&#39;, (&#39;BENIN &#39;, 100)),
- (&#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;, (&#39;BOLIVIA &#39;, 90)),
- (&#39;BRAZIL&#39;, (&#39;BRAZIL &#39;, 100)),
- (&#39;BRUNEI DARUSSALAM&#39;, (&#39;BRUNEI &#39;, 90)),
- (&#39;BULGARIA&#39;, (&#39;BULGARIA &#39;, 100)),
- (&#39;CAMEROON&#39;, (&#39;CAMEROON &#39;, 100)),
- (&#39;CANADA&#39;, (&#39;CANADA &#39;, 100)),
- (&#39;CHAD&#39;, (&#39;CHAD &#39;, 100)),
- (&#39;CHILE&#39;, (&#39;CHILE &#39;, 100)),
- (&#39;CHINA&#39;, (&#39;CHINA &#39;, 100)),
- (&#39;COLOMBIA&#39;, (&#39;COLOMBIA &#39;, 100)),
- (&#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
-  (&#39;DEMOCRATIC REPUBLIC OF THE CONGO &#39;, 95)),
- (&#39;CROATIA&#39;, (&#39;CROATIA &#39;, 100)),
- (&#39;CUBA&#39;, (&#39;CUBA &#39;, 100)),
- (&#39;CZECHIA&#39;, (&#39;CZECHIA &#39;, 100)),
- (&#34;C√îTE D&#39;IVOIRE&#34;, (&#34;CÔTE D&#39;IVOIRE &#34;, 96)),
- (&#39;DENMARK&#39;, (&#39;DENMARK &#39;, 100)),
- (&#39;ECUADOR&#39;, (&#39;ECUADOR &#39;, 100)),
- (&#39;EGYPT&#39;, (&#39;EGYPT &#39;, 100)),
- (&#39;EQUATORIAL GUINEA&#39;, (&#39;EQUATORIAL GUINEA &#39;, 100)),
- (&#39;ETHIOPIA&#39;, (&#39;ETHIOPIA &#39;, 100)),
- (&#39;FRANCE&#39;, (&#39;FRANCE &#39;, 100)),
- (&#39;GABON&#39;, (&#39;GABON &#39;, 100)),
- (&#39;GEORGIA&#39;, (&#39;GEORGIA &#39;, 100)),
- (&#39;GERMANY&#39;, (&#39;GERMANY &#39;, 100)),
- (&#39;GHANA&#39;, (&#39;GHANA &#39;, 100)),
- (&#39;GREECE&#39;, (&#39;GREECE &#39;, 100)),
- (&#39;GUATEMALA&#39;, (&#39;GUATEMALA &#39;, 100)),
- (&#39;GUINEA&#39;, (&#39;EQUATORIAL GUINEA &#39;, 90)),
- (&#39;HUNGARY&#39;, (&#39;HUNGARY &#39;, 100)),
- (&#39;INDIA&#39;, (&#39;INDIA &#39;, 100)),
- (&#39;INDONESIA&#39;, (&#39;INDONESIA &#39;, 100)),
- (&#39;IRAN (ISLAMIC REPUBLIC OF)&#39;, (&#39;IRAN &#39;, 90)),
- (&#39;IRAQ&#39;, (&#39;IRAQ &#39;, 100)),
- (&#39;ITALY&#39;, (&#39;ITALY &#39;, 100)),
- (&#39;JAPAN&#39;, (&#39;JAPAN &#39;, 100)),
- (&#39;JORDAN&#39;, (&#39;JORDAN &#39;, 100)),
- (&#39;KAZAKHSTAN&#39;, (&#39;KAZAKHSTAN &#39;, 100)),
- (&#39;KUWAIT&#39;, (&#39;KUWAIT &#39;, 100)),
- (&#39;KYRGYZSTAN&#39;, (&#39;KYRGYZSTAN &#39;, 100)),
- (&#39;LIBYA&#39;, (&#39;LIBYA &#39;, 100)),
- (&#39;LITHUANIA&#39;, (&#39;LITHUANIA &#39;, 100)),
- (&#39;MALAYSIA&#39;, (&#39;MALAYSIA &#39;, 100)),
- (&#39;MAURITANIA&#39;, (&#39;MAURITANIA &#39;, 100)),
- (&#39;MEXICO&#39;, (&#39;MEXICO &#39;, 100)),
- (&#39;MOROCCO&#39;, (&#39;MOROCCO &#39;, 100)),
- (&#39;MYANMAR&#39;, (&#39;MYANMAR &#39;, 100)),
- (&#39;NETHERLANDS (THE)&#39;, (&#39;NETHERLANDS &#39;, 95)),
- (&#39;NEW ZEALAND&#39;, (&#39;NEW ZEALAND &#39;, 100)),
- (&#39;NIGER (THE)&#39;, (&#39;NIGER &#39;, 90)),
- (&#39;NIGERIA&#39;, (&#39;NIGERIA &#39;, 100)),
- (&#39;NORWAY&#39;, (&#39;NORWAY &#39;, 100)),
- (&#39;OMAN&#39;, (&#39;OMAN &#39;, 100)),
- (&#39;PAKISTAN&#39;, (&#39;PAKISTAN &#39;, 100)),
- (&#39;PAPUA NEW GUINEA&#39;, (&#39;PAPUA NEW GUINEA &#39;, 100)),
- (&#39;PERU&#39;, (&#39;PERU &#39;, 100)),
- (&#39;PHILIPPINES (THE)&#39;, (&#39;PHILIPPINES &#39;, 95)),
- (&#39;POLAND&#39;, (&#39;POLAND &#39;, 100)),
- (&#39;QATAR&#39;, (&#39;QATAR &#39;, 100)),
- (&#39;ROMANIA&#39;, (&#39;ROMANIA &#39;, 100)),
- (&#39;RUSSIAN FEDERATION (THE)&#39;, (&#39;RUSSIA &#39;, 90)),
- (&#39;SAUDI ARABIA&#39;, (&#39;SAUDI ARABIA &#39;, 100)),
- (&#39;SERBIA&#39;, (&#39;SERBIA &#39;, 100)),
- (&#39;SLOVAKIA&#39;, (&#39;SLOVAKIA &#39;, 100)),
- (&#39;SOUTH SUDAN&#39;, (&#39;SOUTH SUDAN &#39;, 100)),
- (&#39;SPAIN&#39;, (&#39;SPAIN &#39;, 100)),
- (&#39;SUDAN (THE)&#39;, (&#39;SUDAN &#39;, 90)),
- (&#39;SURINAME&#39;, (&#39;SURINAME &#39;, 100)),
- (&#39;TAJIKISTAN&#39;, (&#39;TAJIKISTAN &#39;, 100)),
- (&#39;THAILAND&#39;, (&#39;THAILAND &#39;, 100)),
- (&#39;TRINIDAD AND TOBAGO&#39;, (&#39;TRINIDAD AND TOBAGO &#39;, 100)),
- (&#39;TUNISIA&#39;, (&#39;TUNISIA &#39;, 100)),
- (&#39;TURKMENISTAN&#39;, (&#39;TURKMENISTAN &#39;, 100)),
- (&#39;UGANDA&#39;, (&#39;UGANDA &#39;, 100)),
- (&#39;UKRAINE&#39;, (&#39;UKRAINE &#39;, 100)),
- (&#39;UNITED ARAB EMIRATES (THE)&#39;, (&#39;UNITED ARAB EMIRATES &#39;, 95)),
- (&#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
-  (&#39;UNITED KINGDOM &#39;, 90)),
- (&#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;, (&#39;UNITED STATES &#39;, 90)),
- (&#39;UZBEKISTAN&#39;, (&#39;UZBEKISTAN &#39;, 100)),
- (&#39;VIET NAM&#39;, (&#39;VIET NAM &#39;, 100)),
- (&#39;YEMEN&#39;, (&#39;YEMEN &#39;, 100))]</pre>
+<pre>{&#39;AFGHANISTAN&#39;,
+ &#39;ANTIGUA AND BARBUDA&#39;,
+ &#39;ARMENIA&#39;,
+ &#39;BAHAMAS (THE)&#39;,
+ &#39;BELGIUM&#39;,
+ &#39;BHUTAN&#39;,
+ &#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;,
+ &#39;BOSNIA AND HERZEGOVINA&#39;,
+ &#39;BOTSWANA&#39;,
+ &#39;BRUNEI DARUSSALAM&#39;,
+ &#39;BURKINA FASO&#39;,
+ &#39;BURUNDI&#39;,
+ &#39;CABO VERDE&#39;,
+ &#39;CAMBODIA&#39;,
+ &#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;,
+ &#39;COMOROS (THE)&#39;,
+ &#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
+ &#39;CONGO (THE)&#39;,
+ &#39;COSTA RICA&#39;,
+ &#39;CYPRUS&#39;,
+ &#34;C√îTE D&#39;IVOIRE&#34;,
+ &#39;DJIBOUTI&#39;,
+ &#39;DOMINICAN REPUBLIC (THE)&#39;,
+ &#39;EL SALVADOR&#39;,
+ &#39;ESTONIA&#39;,
+ &#39;ESWATINI&#39;,
+ &#39;FIJI&#39;,
+ &#39;FINLAND&#39;,
+ &#39;GAMBIA (THE)&#39;,
+ &#39;GRENADA&#39;,
+ &#39;GUINEA&#39;,
+ &#39;GUINEA-BISSAU&#39;,
+ &#39;GUYANA&#39;,
+ &#39;HAITI&#39;,
+ &#39;HONDURAS&#39;,
+ &#39;ICELAND&#39;,
+ &#39;IRAN (ISLAMIC REPUBLIC OF)&#39;,
+ &#39;IRELAND&#39;,
+ &#39;JAMAICA&#39;,
+ &#39;KENYA&#39;,
+ &#39;KOREA (THE REPUBLIC OF)&#39;,
+ &#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;,
+ &#39;LATVIA&#39;,
+ &#39;LEBANON&#39;,
+ &#39;LESOTHO&#39;,
+ &#39;LIBERIA&#39;,
+ &#39;LUXEMBOURG&#39;,
+ &#39;MADAGASCAR&#39;,
+ &#39;MALAWI&#39;,
+ &#39;MALDIVES&#39;,
+ &#39;MALI&#39;,
+ &#39;MALTA&#39;,
+ &#39;MAURITIUS&#39;,
+ &#39;MICRONESIA (FEDERATED STATES OF)&#39;,
+ &#39;MOLDOVA (THE REPUBLIC OF)&#39;,
+ &#39;MONGOLIA&#39;,
+ &#39;MONTENEGRO&#39;,
+ &#39;MOZAMBIQUE&#39;,
+ &#39;NAMIBIA&#39;,
+ &#39;NEPAL&#39;,
+ &#39;NETHERLANDS (THE)&#39;,
+ &#39;NICARAGUA&#39;,
+ &#39;NIGER (THE)&#39;,
+ &#39;NORTH MACEDONIA&#39;,
+ &#39;PANAMA&#39;,
+ &#39;PARAGUAY&#39;,
+ &#39;PHILIPPINES (THE)&#39;,
+ &#39;PORTUGAL&#39;,
+ &#39;RUSSIAN FEDERATION (THE)&#39;,
+ &#39;RWANDA&#39;,
+ &#39;SAMOA&#39;,
+ &#39;SAO TOME AND PRINCIPE&#39;,
+ &#39;SENEGAL&#39;,
+ &#39;SEYCHELLES&#39;,
+ &#39;SIERRA LEONE&#39;,
+ &#39;SINGAPORE&#39;,
+ &#39;SLOVENIA&#39;,
+ &#39;SOLOMON ISLANDS&#39;,
+ &#39;SRI LANKA&#39;,
+ &#39;SUDAN (THE)&#39;,
+ &#39;SWEDEN&#39;,
+ &#39;SWITZERLAND&#39;,
+ &#39;TANZANIA, THE UNITED REPUBLIC OF&#39;,
+ &#39;TIMOR-LESTE&#39;,
+ &#39;TOGO&#39;,
+ &#39;TURKEY&#39;,
+ &#39;UNITED ARAB EMIRATES (THE)&#39;,
+ &#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
+ &#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;,
+ &#39;URUGUAY&#39;,
+ &#39;ZAMBIA&#39;,
+ &#39;ZIMBABWE&#39;}</pre>
 </div>
 
 </div>
@@ -16042,6 +15836,199 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Se instala en el Anaconda "thefuzz"</span>
+<span class="kn">from</span> <span class="nn">thefuzz</span> <span class="kn">import</span> <span class="n">process</span> <span class="k">as</span> <span class="n">fz</span>
+
+<span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;AFGHANISTAN&#39;, (&#39;SUDAN&#39;, 54)),
+ (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;SUDAN&#39;, 54)),
+ (&#39;ARMENIA&#39;, (&#39;SOUTH AFRICA&#39;, 51)),
+ (&#39;BAHAMAS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;BELGIUM&#39;, (&#39;BRUNEI&#39;, 46)),
+ (&#39;BHUTAN&#39;, (&#39;SUDAN&#39;, 55)),
+ (&#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;, (&#39;BOLIVIA&#39;, 90)),
+ (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;BOTSWANA&#39;, (&#39;SUDAN&#39;, 54)),
+ (&#39;BRUNEI DARUSSALAM&#39;, (&#39;BRUNEI&#39;, 90)),
+ (&#39;BURKINA FASO&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;BURUNDI&#39;, (&#39;BRUNEI&#39;, 77)),
+ (&#39;CABO VERDE&#39;, (&#39;UNITED ARAB EMIRATES&#39;, 54)),
+ (&#39;CAMBODIA&#39;, (&#39;BOLIVIA&#39;, 53)),
+ (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 69)),
+ (&#39;COMOROS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
+  (&#39;DEMOCRATIC REPUBLIC OF THE CONGO&#39;, 95)),
+ (&#39;CONGO (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;COSTA RICA&#39;, (&#39;SOUTH AFRICA&#39;, 64)),
+ (&#39;CYPRUS&#39;, (&#39;RUSSIA&#39;, 50)),
+ (&#34;C√îTE D&#39;IVOIRE&#34;, (&#34;CÔTE D&#39;IVOIRE&#34;, 96)),
+ (&#39;DJIBOUTI&#39;, (&#34;CÔTE D&#39;IVOIRE&#34;, 45)),
+ (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 69)),
+ (&#39;EL SALVADOR&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;ESTONIA&#39;, (&#39;UNITED STATES&#39;, 51)),
+ (&#39;ESWATINI&#39;, (&#39;SUDAN&#39;, 46)),
+ (&#39;FIJI&#39;, (&#39;BOLIVIA&#39;, 45)),
+ (&#39;FINLAND&#39;, (&#39;NETHERLANDS&#39;, 56)),
+ (&#39;GAMBIA (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;GRENADA&#39;, (&#39;IRAN&#39;, 45)),
+ (&#39;GUINEA&#39;, (&#39;BRUNEI&#39;, 50)),
+ (&#39;GUINEA-BISSAU&#39;, (&#39;UNITED STATES&#39;, 46)),
+ (&#39;GUYANA&#39;, (&#39;SUDAN&#39;, 55)),
+ (&#39;HAITI&#39;, (&#39;PHILIPPINES&#39;, 54)),
+ (&#39;HONDURAS&#39;, (&#39;IRAN&#39;, 45)),
+ (&#39;ICELAND&#39;, (&#39;NETHERLANDS&#39;, 64)),
+ (&#39;IRAN (ISLAMIC REPUBLIC OF)&#39;, (&#39;IRAN&#39;, 90)),
+ (&#39;IRELAND&#39;, (&#39;IRAN&#39;, 73)),
+ (&#39;JAMAICA&#39;, (&#39;SOUTH AFRICA&#39;, 51)),
+ (&#39;KENYA&#39;, (&#39;VENEZUELA&#39;, 43)),
+ (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 79)),
+ (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;LATVIA&#39;, (&#39;BOLIVIA&#39;, 62)),
+ (&#39;LEBANON&#39;, (&#39;IRAN&#39;, 45)),
+ (&#39;LESOTHO&#39;, (&#39;SOUTH AFRICA&#39;, 53)),
+ (&#39;LIBERIA&#39;, (&#39;BOLIVIA&#39;, 57)),
+ (&#39;LUXEMBOURG&#39;, (&#39;DEMOCRATIC REPUBLIC OF THE CONGO&#39;, 34)),
+ (&#39;MADAGASCAR&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;MALAWI&#39;, (&#39;ISRAEL&#39;, 33)),
+ (&#39;MALDIVES&#39;, (&#39;UNITED ARAB EMIRATES&#39;, 45)),
+ (&#39;MALI&#39;, (&#39;BOLIVIA&#39;, 45)),
+ (&#39;MALTA&#39;, (&#39;UNITED ARAB EMIRATES&#39;, 54)),
+ (&#39;MAURITIUS&#39;, (&#39;RUSSIA&#39;, 45)),
+ (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;UNITED STATES&#39;, 86)),
+ (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 79)),
+ (&#39;MONGOLIA&#39;, (&#39;BOLIVIA&#39;, 53)),
+ (&#39;MONTENEGRO&#39;, (&#39;NIGER&#39;, 54)),
+ (&#39;MOZAMBIQUE&#39;, (&#39;BRUNEI&#39;, 45)),
+ (&#39;NAMIBIA&#39;, (&#39;IRAN&#39;, 45)),
+ (&#39;NEPAL&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 54)),
+ (&#39;NETHERLANDS (THE)&#39;, (&#39;NETHERLANDS&#39;, 95)),
+ (&#39;NICARAGUA&#39;, (&#39;NIGER&#39;, 54)),
+ (&#39;NIGER (THE)&#39;, (&#39;NIGER&#39;, 90)),
+ (&#39;NORTH MACEDONIA&#39;, (&#39;IRAN&#39;, 64)),
+ (&#39;PANAMA&#39;, (&#39;IRAN&#39;, 45)),
+ (&#39;PARAGUAY&#39;, (&#39;IRAN&#39;, 45)),
+ (&#39;PHILIPPINES (THE)&#39;, (&#39;PHILIPPINES&#39;, 95)),
+ (&#39;PORTUGAL&#39;, (&#39;RUSSIA&#39;, 43)),
+ (&#39;RUSSIAN FEDERATION (THE)&#39;, (&#39;RUSSIA&#39;, 90)),
+ (&#39;RWANDA&#39;, (&#39;IRAN&#39;, 68)),
+ (&#39;SAMOA&#39;, (&#39;DEMOCRATIC REPUBLIC OF THE CONGO&#39;, 54)),
+ (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;NIGER&#39;, 54)),
+ (&#39;SENEGAL&#39;, (&#39;VENEZUELA&#39;, 50)),
+ (&#39;SEYCHELLES&#39;, (&#39;NETHERLANDS&#39;, 48)),
+ (&#39;SIERRA LEONE&#39;, (&#39;NIGER&#39;, 54)),
+ (&#39;SINGAPORE&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;SLOVENIA&#39;, (&#39;BOLIVIA&#39;, 53)),
+ (&#39;SOLOMON ISLANDS&#39;, (&#39;SUDAN&#39;, 54)),
+ (&#39;SRI LANKA&#39;, (&#39;SYRIA&#39;, 57)),
+ (&#39;SUDAN (THE)&#39;, (&#39;SUDAN&#39;, 90)),
+ (&#39;SWEDEN&#39;, (&#39;SUDAN&#39;, 55)),
+ (&#39;SWITZERLAND&#39;, (&#39;IRAN&#39;, 68)),
+ (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;UNITED STATES&#39;, 86)),
+ (&#39;TIMOR-LESTE&#39;, (&#34;CÔTE D&#39;IVOIRE&#34;, 49)),
+ (&#39;TOGO&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 68)),
+ (&#39;TURKEY&#39;, (&#39;TÜRKIYE&#39;, 67)),
+ (&#39;UNITED ARAB EMIRATES (THE)&#39;, (&#39;UNITED ARAB EMIRATES&#39;, 95)),
+ (&#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
+  (&#39;UNITED KINGDOM&#39;, 90)),
+ (&#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;, (&#39;UNITED STATES&#39;, 90)),
+ (&#39;URUGUAY&#39;, (&#39;RUSSIA&#39;, 46)),
+ (&#39;ZAMBIA&#39;, (&#39;BOLIVIA&#39;, 46)),
+ (&#39;ZIMBABWE&#39;, (&#39;IRAN&#39;, 45))]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;=</span><span class="mi">87</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;, (&#39;BOLIVIA&#39;, 90)),
+ (&#39;BRUNEI DARUSSALAM&#39;, (&#39;BRUNEI&#39;, 90)),
+ (&#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
+  (&#39;DEMOCRATIC REPUBLIC OF THE CONGO&#39;, 95)),
+ (&#34;C√îTE D&#39;IVOIRE&#34;, (&#34;CÔTE D&#39;IVOIRE&#34;, 96)),
+ (&#39;IRAN (ISLAMIC REPUBLIC OF)&#39;, (&#39;IRAN&#39;, 90)),
+ (&#39;NETHERLANDS (THE)&#39;, (&#39;NETHERLANDS&#39;, 95)),
+ (&#39;NIGER (THE)&#39;, (&#39;NIGER&#39;, 90)),
+ (&#39;PHILIPPINES (THE)&#39;, (&#39;PHILIPPINES&#39;, 95)),
+ (&#39;RUSSIAN FEDERATION (THE)&#39;, (&#39;RUSSIA&#39;, 90)),
+ (&#39;SUDAN (THE)&#39;, (&#39;SUDAN&#39;, 90)),
+ (&#39;UNITED ARAB EMIRATES (THE)&#39;, (&#39;UNITED ARAB EMIRATES&#39;, 95)),
+ (&#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
+  (&#39;UNITED KINGDOM&#39;, 90)),
+ (&#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;, (&#39;UNITED STATES&#39;, 90))]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">changesFragile1</span><span class="o">=</span><span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
@@ -16066,105 +16053,25 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;ALBANIA&#39;: &#39;ALBANIA &#39;,
- &#39;ALGERIA&#39;: &#39;ALGERIA &#39;,
- &#39;ANGOLA&#39;: &#39;ANGOLA &#39;,
- &#39;ARGENTINA&#39;: &#39;ARGENTINA &#39;,
- &#39;AUSTRALIA&#39;: &#39;AUSTRALIA &#39;,
- &#39;AUSTRIA&#39;: &#39;AUSTRIA &#39;,
- &#39;AZERBAIJAN&#39;: &#39;AZERBAIJAN &#39;,
- &#39;BAHRAIN&#39;: &#39;BAHRAIN &#39;,
- &#39;BANGLADESH&#39;: &#39;BANGLADESH &#39;,
- &#39;BARBADOS&#39;: &#39;BARBADOS &#39;,
- &#39;BELARUS&#39;: &#39;BELARUS &#39;,
- &#39;BELIZE&#39;: &#39;BELIZE &#39;,
- &#39;BENIN&#39;: &#39;BENIN &#39;,
- &#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;: &#39;BOLIVIA &#39;,
- &#39;BRAZIL&#39;: &#39;BRAZIL &#39;,
- &#39;BRUNEI DARUSSALAM&#39;: &#39;BRUNEI &#39;,
- &#39;BULGARIA&#39;: &#39;BULGARIA &#39;,
- &#39;CAMEROON&#39;: &#39;CAMEROON &#39;,
- &#39;CANADA&#39;: &#39;CANADA &#39;,
- &#39;CHAD&#39;: &#39;CHAD &#39;,
- &#39;CHILE&#39;: &#39;CHILE &#39;,
- &#39;CHINA&#39;: &#39;CHINA &#39;,
- &#39;COLOMBIA&#39;: &#39;COLOMBIA &#39;,
- &#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;: &#39;DEMOCRATIC REPUBLIC OF THE CONGO &#39;,
- &#39;CROATIA&#39;: &#39;CROATIA &#39;,
- &#39;CUBA&#39;: &#39;CUBA &#39;,
- &#39;CZECHIA&#39;: &#39;CZECHIA &#39;,
- &#34;C√îTE D&#39;IVOIRE&#34;: &#34;CÔTE D&#39;IVOIRE &#34;,
- &#39;DENMARK&#39;: &#39;DENMARK &#39;,
- &#39;ECUADOR&#39;: &#39;ECUADOR &#39;,
- &#39;EGYPT&#39;: &#39;EGYPT &#39;,
- &#39;EQUATORIAL GUINEA&#39;: &#39;EQUATORIAL GUINEA &#39;,
- &#39;ETHIOPIA&#39;: &#39;ETHIOPIA &#39;,
- &#39;FRANCE&#39;: &#39;FRANCE &#39;,
- &#39;GABON&#39;: &#39;GABON &#39;,
- &#39;GEORGIA&#39;: &#39;GEORGIA &#39;,
- &#39;GERMANY&#39;: &#39;GERMANY &#39;,
- &#39;GHANA&#39;: &#39;GHANA &#39;,
- &#39;GREECE&#39;: &#39;GREECE &#39;,
- &#39;GUATEMALA&#39;: &#39;GUATEMALA &#39;,
- &#39;GUINEA&#39;: &#39;EQUATORIAL GUINEA &#39;,
- &#39;HUNGARY&#39;: &#39;HUNGARY &#39;,
- &#39;INDIA&#39;: &#39;INDIA &#39;,
- &#39;INDONESIA&#39;: &#39;INDONESIA &#39;,
- &#39;IRAN (ISLAMIC REPUBLIC OF)&#39;: &#39;IRAN &#39;,
- &#39;IRAQ&#39;: &#39;IRAQ &#39;,
- &#39;ITALY&#39;: &#39;ITALY &#39;,
- &#39;JAPAN&#39;: &#39;JAPAN &#39;,
- &#39;JORDAN&#39;: &#39;JORDAN &#39;,
- &#39;KAZAKHSTAN&#39;: &#39;KAZAKHSTAN &#39;,
- &#39;KUWAIT&#39;: &#39;KUWAIT &#39;,
- &#39;KYRGYZSTAN&#39;: &#39;KYRGYZSTAN &#39;,
- &#39;LIBYA&#39;: &#39;LIBYA &#39;,
- &#39;LITHUANIA&#39;: &#39;LITHUANIA &#39;,
- &#39;MALAYSIA&#39;: &#39;MALAYSIA &#39;,
- &#39;MAURITANIA&#39;: &#39;MAURITANIA &#39;,
- &#39;MEXICO&#39;: &#39;MEXICO &#39;,
- &#39;MOROCCO&#39;: &#39;MOROCCO &#39;,
- &#39;MYANMAR&#39;: &#39;MYANMAR &#39;,
- &#39;NETHERLANDS (THE)&#39;: &#39;NETHERLANDS &#39;,
- &#39;NEW ZEALAND&#39;: &#39;NEW ZEALAND &#39;,
- &#39;NIGER (THE)&#39;: &#39;NIGER &#39;,
- &#39;NIGERIA&#39;: &#39;NIGERIA &#39;,
- &#39;NORWAY&#39;: &#39;NORWAY &#39;,
- &#39;OMAN&#39;: &#39;OMAN &#39;,
- &#39;PAKISTAN&#39;: &#39;PAKISTAN &#39;,
- &#39;PAPUA NEW GUINEA&#39;: &#39;PAPUA NEW GUINEA &#39;,
- &#39;PERU&#39;: &#39;PERU &#39;,
- &#39;PHILIPPINES (THE)&#39;: &#39;PHILIPPINES &#39;,
- &#39;POLAND&#39;: &#39;POLAND &#39;,
- &#39;QATAR&#39;: &#39;QATAR &#39;,
- &#39;ROMANIA&#39;: &#39;ROMANIA &#39;,
- &#39;RUSSIAN FEDERATION (THE)&#39;: &#39;RUSSIA &#39;,
- &#39;SAUDI ARABIA&#39;: &#39;SAUDI ARABIA &#39;,
- &#39;SERBIA&#39;: &#39;SERBIA &#39;,
- &#39;SLOVAKIA&#39;: &#39;SLOVAKIA &#39;,
- &#39;SOUTH SUDAN&#39;: &#39;SOUTH SUDAN &#39;,
- &#39;SPAIN&#39;: &#39;SPAIN &#39;,
- &#39;SUDAN (THE)&#39;: &#39;SUDAN &#39;,
- &#39;SURINAME&#39;: &#39;SURINAME &#39;,
- &#39;TAJIKISTAN&#39;: &#39;TAJIKISTAN &#39;,
- &#39;THAILAND&#39;: &#39;THAILAND &#39;,
- &#39;TRINIDAD AND TOBAGO&#39;: &#39;TRINIDAD AND TOBAGO &#39;,
- &#39;TUNISIA&#39;: &#39;TUNISIA &#39;,
- &#39;TURKMENISTAN&#39;: &#39;TURKMENISTAN &#39;,
- &#39;UGANDA&#39;: &#39;UGANDA &#39;,
- &#39;UKRAINE&#39;: &#39;UKRAINE &#39;,
- &#39;UNITED ARAB EMIRATES (THE)&#39;: &#39;UNITED ARAB EMIRATES &#39;,
- &#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;: &#39;UNITED KINGDOM &#39;,
- &#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;: &#39;UNITED STATES &#39;,
- &#39;UZBEKISTAN&#39;: &#39;UZBEKISTAN &#39;,
- &#39;VIET NAM&#39;: &#39;VIET NAM &#39;,
- &#39;YEMEN&#39;: &#39;YEMEN &#39;}</pre>
+<pre>{&#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;: &#39;BOLIVIA&#39;,
+ &#39;BRUNEI DARUSSALAM&#39;: &#39;BRUNEI&#39;,
+ &#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;: &#39;DEMOCRATIC REPUBLIC OF THE CONGO&#39;,
+ &#34;C√îTE D&#39;IVOIRE&#34;: &#34;CÔTE D&#39;IVOIRE&#34;,
+ &#39;IRAN (ISLAMIC REPUBLIC OF)&#39;: &#39;IRAN&#39;,
+ &#39;NETHERLANDS (THE)&#39;: &#39;NETHERLANDS&#39;,
+ &#39;NIGER (THE)&#39;: &#39;NIGER&#39;,
+ &#39;PHILIPPINES (THE)&#39;: &#39;PHILIPPINES&#39;,
+ &#39;RUSSIAN FEDERATION (THE)&#39;: &#39;RUSSIA&#39;,
+ &#39;SUDAN (THE)&#39;: &#39;SUDAN&#39;,
+ &#39;UNITED ARAB EMIRATES (THE)&#39;: &#39;UNITED ARAB EMIRATES&#39;,
+ &#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;: &#39;UNITED KINGDOM&#39;,
+ &#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;: &#39;UNITED STATES&#39;}</pre>
 </div>
 
 </div>
@@ -16178,7 +16085,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">changesFragile1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -16194,7 +16101,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyMerge1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
@@ -16217,165 +16124,97 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;AFGHANISTAN&#39;, (&#39;ISRAEL &#39;, 50)),
- (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;ARMENIA&#39;, (&#39;SOUTH AFRICA &#39;, 51)),
- (&#39;BAHAMAS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;BELGIUM&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 39)),
- (&#39;BHUTAN&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;BOTSWANA&#39;, (&#39;SOUTH AFRICA &#39;, 40)),
- (&#39;BURKINA FASO&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;BURUNDI&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 37)),
- (&#39;CABO VERDE&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 36)),
- (&#39;CAMBODIA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 69)),
- (&#39;COMOROS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;CONGO (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;COSTA RICA&#39;, (&#39;SOUTH AFRICA &#39;, 64)),
- (&#39;CYPRUS&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;DJIBOUTI&#39;, (&#39;SOUTH AFRICA &#39;, 40)),
- (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 69)),
- (&#39;EL SALVADOR&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;ESTONIA&#39;, (&#39;SYRIA &#39;, 50)),
- (&#39;ESWATINI&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;FIJI&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;FINLAND&#39;, (&#39;SOUTH AFRICA &#39;, 39)),
- (&#39;GAMBIA (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;GRENADA&#39;, (&#39;VENEZUELA &#39;, 38)),
- (&#39;GUINEA-BISSAU&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;GUYANA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;HAITI&#39;, (&#39;TÜRKIYE &#39;, 36)),
- (&#39;HONDURAS&#39;, (&#39;SOUTH AFRICA &#39;, 40)),
- (&#39;ICELAND&#39;, (&#39;ISRAEL &#39;, 46)),
- (&#39;IRELAND&#39;, (&#39;ISRAEL &#39;, 62)),
- (&#39;JAMAICA&#39;, (&#39;SOUTH AFRICA &#39;, 51)),
- (&#39;KENYA&#39;, (&#39;VENEZUELA &#39;, 43)),
- (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 79)),
- (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;LATVIA&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;LEBANON&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 39)),
- (&#39;LESOTHO&#39;, (&#39;SOUTH AFRICA &#39;, 53)),
- (&#39;LIBERIA&#39;, (&#39;SYRIA &#39;, 50)),
- (&#39;LUXEMBOURG&#39;, (&#39;SOUTH AFRICA &#39;, 27)),
- (&#39;MADAGASCAR&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;MALAWI&#39;, (&#39;ISRAEL &#39;, 33)),
- (&#39;MALDIVES&#39;, (&#39;SOUTH AFRICA &#39;, 32)),
- (&#39;MALI&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;MALTA&#39;, (&#39;VENEZUELA &#39;, 36)),
- (&#39;MAURITIUS&#39;, (&#39;SOUTH AFRICA &#39;, 36)),
- (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 79)),
- (&#39;MONGOLIA&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 45)),
- (&#39;MONTENEGRO&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 45)),
- (&#39;MOZAMBIQUE&#39;, (&#39;VENEZUELA &#39;, 32)),
- (&#39;NAMIBIA&#39;, (&#39;SOUTH AFRICA &#39;, 39)),
- (&#39;NEPAL&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 54)),
- (&#39;NICARAGUA&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;NORTH MACEDONIA&#39;, (&#39;SOUTH AFRICA &#39;, 52)),
- (&#39;PANAMA&#39;, (&#39;SOUTH AFRICA &#39;, 30)),
- (&#39;PARAGUAY&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;PORTUGAL&#39;, (&#39;ISRAEL &#39;, 43)),
- (&#39;RWANDA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;SAMOA&#39;, (&#39;SYRIA &#39;, 40)),
- (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;SOUTH AFRICA &#39;, 48)),
- (&#39;SENEGAL&#39;, (&#39;VENEZUELA &#39;, 50)),
- (&#39;SEYCHELLES&#39;, (&#39;ISRAEL &#39;, 38)),
- (&#39;SIERRA LEONE&#39;, (&#39;VENEZUELA &#39;, 46)),
- (&#39;SINGAPORE&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;SLOVENIA&#39;, (&#39;VENEZUELA &#39;, 47)),
- (&#39;SOLOMON ISLANDS&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;SRI LANKA&#39;, (&#39;SYRIA &#39;, 57)),
- (&#39;SWEDEN&#39;, (&#39;ISRAEL &#39;, 33)),
- (&#39;SWITZERLAND&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;TIMOR-LESTE&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;TOGO&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 68)),
- (&#39;TURKEY&#39;, (&#39;TÜRKIYE &#39;, 67)),
- (&#39;URUGUAY&#39;, (&#39;SYRIA &#39;, 33)),
- (&#39;ZAMBIA&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;ZIMBABWE&#39;, (&#39;ISRAEL &#39;, 43))]</pre>
+<pre>[(&#39;AFGHANISTAN&#39;, (&#39;ISRAEL&#39;, 50)),
+ (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;ARMENIA&#39;, (&#39;SOUTH AFRICA&#39;, 51)),
+ (&#39;BAHAMAS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;BELGIUM&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 39)),
+ (&#39;BHUTAN&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;BOTSWANA&#39;, (&#39;SOUTH AFRICA&#39;, 40)),
+ (&#39;BURKINA FASO&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;BURUNDI&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 37)),
+ (&#39;CABO VERDE&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 36)),
+ (&#39;CAMBODIA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 69)),
+ (&#39;COMOROS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;CONGO (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;COSTA RICA&#39;, (&#39;SOUTH AFRICA&#39;, 64)),
+ (&#39;CYPRUS&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;DJIBOUTI&#39;, (&#39;SOUTH AFRICA&#39;, 40)),
+ (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 69)),
+ (&#39;EL SALVADOR&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;ESTONIA&#39;, (&#39;SYRIA&#39;, 50)),
+ (&#39;ESWATINI&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;FIJI&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;FINLAND&#39;, (&#39;SOUTH AFRICA&#39;, 39)),
+ (&#39;GAMBIA (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;GRENADA&#39;, (&#39;VENEZUELA&#39;, 38)),
+ (&#39;GUINEA&#39;, (&#39;VENEZUELA&#39;, 45)),
+ (&#39;GUINEA-BISSAU&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;GUYANA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;HAITI&#39;, (&#39;SOUTH AFRICA&#39;, 36)),
+ (&#39;HONDURAS&#39;, (&#39;SOUTH AFRICA&#39;, 40)),
+ (&#39;ICELAND&#39;, (&#39;ISRAEL&#39;, 46)),
+ (&#39;IRELAND&#39;, (&#39;ISRAEL&#39;, 62)),
+ (&#39;JAMAICA&#39;, (&#39;SOUTH AFRICA&#39;, 51)),
+ (&#39;KENYA&#39;, (&#39;VENEZUELA&#39;, 43)),
+ (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 79)),
+ (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;LATVIA&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;LEBANON&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 39)),
+ (&#39;LESOTHO&#39;, (&#39;SOUTH AFRICA&#39;, 53)),
+ (&#39;LIBERIA&#39;, (&#39;SYRIA&#39;, 50)),
+ (&#39;LUXEMBOURG&#39;, (&#39;SOUTH AFRICA&#39;, 27)),
+ (&#39;MADAGASCAR&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;MALAWI&#39;, (&#39;ISRAEL&#39;, 33)),
+ (&#39;MALDIVES&#39;, (&#39;SOUTH AFRICA&#39;, 32)),
+ (&#39;MALI&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;MALTA&#39;, (&#39;ISRAEL&#39;, 36)),
+ (&#39;MAURITIUS&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 79)),
+ (&#39;MONGOLIA&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 45)),
+ (&#39;MONTENEGRO&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 45)),
+ (&#39;MOZAMBIQUE&#39;, (&#39;VENEZUELA&#39;, 32)),
+ (&#39;NAMIBIA&#39;, (&#39;SOUTH AFRICA&#39;, 39)),
+ (&#39;NEPAL&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 54)),
+ (&#39;NICARAGUA&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;NORTH MACEDONIA&#39;, (&#39;SOUTH AFRICA&#39;, 52)),
+ (&#39;PANAMA&#39;, (&#39;SOUTH AFRICA&#39;, 30)),
+ (&#39;PARAGUAY&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;PORTUGAL&#39;, (&#39;ISRAEL&#39;, 43)),
+ (&#39;RWANDA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;SAMOA&#39;, (&#39;SYRIA&#39;, 40)),
+ (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;SOUTH AFRICA&#39;, 48)),
+ (&#39;SENEGAL&#39;, (&#39;VENEZUELA&#39;, 50)),
+ (&#39;SEYCHELLES&#39;, (&#39;ISRAEL&#39;, 38)),
+ (&#39;SIERRA LEONE&#39;, (&#39;VENEZUELA&#39;, 46)),
+ (&#39;SINGAPORE&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;SLOVENIA&#39;, (&#39;VENEZUELA&#39;, 47)),
+ (&#39;SOLOMON ISLANDS&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;SRI LANKA&#39;, (&#39;SYRIA&#39;, 57)),
+ (&#39;SWEDEN&#39;, (&#39;ISRAEL&#39;, 33)),
+ (&#39;SWITZERLAND&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;TIMOR-LESTE&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;TOGO&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 68)),
+ (&#39;TURKEY&#39;, (&#39;TÜRKIYE&#39;, 67)),
+ (&#39;URUGUAY&#39;, (&#39;SYRIA&#39;, 33)),
+ (&#39;ZAMBIA&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;ZIMBABWE&#39;, (&#39;ISRAEL&#39;, 43))]</pre>
 </div>
 
 </div>
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">changesFragile2</span><span class="o">=</span><span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
-                 <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)</span>
-                 <span class="k">if</span> <span class="mi">74</span><span class="o">&lt;=</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]}</span>
-
-<span class="c1">#dict of matches</span>
-<span class="n">changesFragile2</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;BAHAMAS (THE)&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;COMOROS (THE)&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;CONGO (THE)&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;GAMBIA (THE)&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;KOREA (THE REPUBLIC OF)&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;MOLDOVA (THE REPUBLIC OF)&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;TANZANIA, THE UNITED REPUBLIC OF&#39;: &#39;REPUBLIC OF THE CONGO &#39;}</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">changesFragile2</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16386,9 +16225,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyMerge1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
-<span class="n">Onlycountryisos</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
-<span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">changesFragile2</span><span class="o">=</span><span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
+                 <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)</span>
+                 <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">87</span><span class="p">}</span>
+
+<span class="c1">#dict of matches</span>
+<span class="n">changesFragile2</span>
 </pre></div>
 
      </div>
@@ -16412,84 +16254,144 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;AFGHANISTAN&#39;, (&#39;ISRAEL &#39;, 50)),
- (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;ARMENIA&#39;, (&#39;SOUTH AFRICA &#39;, 51)),
- (&#39;BAHAMAS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;BELGIUM&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 39)),
- (&#39;BHUTAN&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;BOTSWANA&#39;, (&#39;SOUTH AFRICA &#39;, 40)),
- (&#39;BURKINA FASO&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;BURUNDI&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 37)),
- (&#39;CABO VERDE&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 36)),
- (&#39;CAMBODIA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 69)),
- (&#39;COMOROS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;CONGO (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;COSTA RICA&#39;, (&#39;SOUTH AFRICA &#39;, 64)),
- (&#39;CYPRUS&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;DJIBOUTI&#39;, (&#39;SOUTH AFRICA &#39;, 40)),
- (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 69)),
- (&#39;EL SALVADOR&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;ESTONIA&#39;, (&#39;SYRIA &#39;, 50)),
- (&#39;ESWATINI&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;FIJI&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;FINLAND&#39;, (&#39;SOUTH AFRICA &#39;, 39)),
- (&#39;GAMBIA (THE)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;GRENADA&#39;, (&#39;VENEZUELA &#39;, 38)),
- (&#39;GUINEA-BISSAU&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;GUYANA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;HAITI&#39;, (&#39;TÜRKIYE &#39;, 36)),
- (&#39;HONDURAS&#39;, (&#39;SOUTH AFRICA &#39;, 40)),
- (&#39;ICELAND&#39;, (&#39;ISRAEL &#39;, 46)),
- (&#39;IRELAND&#39;, (&#39;ISRAEL &#39;, 62)),
- (&#39;JAMAICA&#39;, (&#39;SOUTH AFRICA &#39;, 51)),
- (&#39;KENYA&#39;, (&#39;VENEZUELA &#39;, 43)),
- (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 79)),
- (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;LATVIA&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;LEBANON&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 39)),
- (&#39;LESOTHO&#39;, (&#39;SOUTH AFRICA &#39;, 53)),
- (&#39;LIBERIA&#39;, (&#39;SYRIA &#39;, 50)),
- (&#39;LUXEMBOURG&#39;, (&#39;SOUTH AFRICA &#39;, 27)),
- (&#39;MADAGASCAR&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;MALAWI&#39;, (&#39;ISRAEL &#39;, 33)),
- (&#39;MALDIVES&#39;, (&#39;SOUTH AFRICA &#39;, 32)),
- (&#39;MALI&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;MALTA&#39;, (&#39;VENEZUELA &#39;, 36)),
- (&#39;MAURITIUS&#39;, (&#39;SOUTH AFRICA &#39;, 36)),
- (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 79)),
- (&#39;MONGOLIA&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 45)),
- (&#39;MONTENEGRO&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 45)),
- (&#39;MOZAMBIQUE&#39;, (&#39;VENEZUELA &#39;, 32)),
- (&#39;NAMIBIA&#39;, (&#39;SOUTH AFRICA &#39;, 39)),
- (&#39;NEPAL&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 54)),
- (&#39;NICARAGUA&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;NORTH MACEDONIA&#39;, (&#39;SOUTH AFRICA &#39;, 52)),
- (&#39;PANAMA&#39;, (&#39;SOUTH AFRICA &#39;, 30)),
- (&#39;PARAGUAY&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;PORTUGAL&#39;, (&#39;ISRAEL &#39;, 43)),
- (&#39;RWANDA&#39;, (&#39;SYRIA &#39;, 36)),
- (&#39;SAMOA&#39;, (&#39;SYRIA &#39;, 40)),
- (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;SOUTH AFRICA &#39;, 48)),
- (&#39;SENEGAL&#39;, (&#39;VENEZUELA &#39;, 50)),
- (&#39;SEYCHELLES&#39;, (&#39;ISRAEL &#39;, 38)),
- (&#39;SIERRA LEONE&#39;, (&#39;VENEZUELA &#39;, 46)),
- (&#39;SINGAPORE&#39;, (&#39;SYRIA &#39;, 54)),
- (&#39;SLOVENIA&#39;, (&#39;VENEZUELA &#39;, 47)),
- (&#39;SOLOMON ISLANDS&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;SRI LANKA&#39;, (&#39;SYRIA &#39;, 57)),
- (&#39;SWEDEN&#39;, (&#39;ISRAEL &#39;, 33)),
- (&#39;SWITZERLAND&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 86)),
- (&#39;TIMOR-LESTE&#39;, (&#39;ISRAEL &#39;, 45)),
- (&#39;TOGO&#39;, (&#39;REPUBLIC OF THE CONGO &#39;, 68)),
- (&#39;TURKEY&#39;, (&#39;TÜRKIYE &#39;, 67)),
- (&#39;URUGUAY&#39;, (&#39;SYRIA &#39;, 33)),
- (&#39;ZAMBIA&#39;, (&#39;SOUTH AFRICA &#39;, 45)),
- (&#39;ZIMBABWE&#39;, (&#39;ISRAEL &#39;, 43))]</pre>
+<pre>{}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">changesFragile2</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyMerge1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">Onlycountryisos</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">countryisos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">merge1</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;AFGHANISTAN&#39;, (&#39;ISRAEL&#39;, 50)),
+ (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;ARMENIA&#39;, (&#39;SOUTH AFRICA&#39;, 51)),
+ (&#39;BAHAMAS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;BELGIUM&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 39)),
+ (&#39;BHUTAN&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;BOTSWANA&#39;, (&#39;SOUTH AFRICA&#39;, 40)),
+ (&#39;BURKINA FASO&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;BURUNDI&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 37)),
+ (&#39;CABO VERDE&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 36)),
+ (&#39;CAMBODIA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 69)),
+ (&#39;COMOROS (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;CONGO (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;COSTA RICA&#39;, (&#39;SOUTH AFRICA&#39;, 64)),
+ (&#39;CYPRUS&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;DJIBOUTI&#39;, (&#39;SOUTH AFRICA&#39;, 40)),
+ (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 69)),
+ (&#39;EL SALVADOR&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;ESTONIA&#39;, (&#39;SYRIA&#39;, 50)),
+ (&#39;ESWATINI&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;FIJI&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;FINLAND&#39;, (&#39;SOUTH AFRICA&#39;, 39)),
+ (&#39;GAMBIA (THE)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;GRENADA&#39;, (&#39;VENEZUELA&#39;, 38)),
+ (&#39;GUINEA&#39;, (&#39;VENEZUELA&#39;, 45)),
+ (&#39;GUINEA-BISSAU&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;GUYANA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;HAITI&#39;, (&#39;SOUTH AFRICA&#39;, 36)),
+ (&#39;HONDURAS&#39;, (&#39;SOUTH AFRICA&#39;, 40)),
+ (&#39;ICELAND&#39;, (&#39;ISRAEL&#39;, 46)),
+ (&#39;IRELAND&#39;, (&#39;ISRAEL&#39;, 62)),
+ (&#39;JAMAICA&#39;, (&#39;SOUTH AFRICA&#39;, 51)),
+ (&#39;KENYA&#39;, (&#39;VENEZUELA&#39;, 43)),
+ (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 79)),
+ (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;LATVIA&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;LEBANON&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 39)),
+ (&#39;LESOTHO&#39;, (&#39;SOUTH AFRICA&#39;, 53)),
+ (&#39;LIBERIA&#39;, (&#39;SYRIA&#39;, 50)),
+ (&#39;LUXEMBOURG&#39;, (&#39;SOUTH AFRICA&#39;, 27)),
+ (&#39;MADAGASCAR&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;MALAWI&#39;, (&#39;ISRAEL&#39;, 33)),
+ (&#39;MALDIVES&#39;, (&#39;SOUTH AFRICA&#39;, 32)),
+ (&#39;MALI&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;MALTA&#39;, (&#39;ISRAEL&#39;, 36)),
+ (&#39;MAURITIUS&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 79)),
+ (&#39;MONGOLIA&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 45)),
+ (&#39;MONTENEGRO&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 45)),
+ (&#39;MOZAMBIQUE&#39;, (&#39;VENEZUELA&#39;, 32)),
+ (&#39;NAMIBIA&#39;, (&#39;SOUTH AFRICA&#39;, 39)),
+ (&#39;NEPAL&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 54)),
+ (&#39;NICARAGUA&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;NORTH MACEDONIA&#39;, (&#39;SOUTH AFRICA&#39;, 52)),
+ (&#39;PANAMA&#39;, (&#39;SOUTH AFRICA&#39;, 30)),
+ (&#39;PARAGUAY&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;PORTUGAL&#39;, (&#39;ISRAEL&#39;, 43)),
+ (&#39;RWANDA&#39;, (&#39;SYRIA&#39;, 36)),
+ (&#39;SAMOA&#39;, (&#39;SYRIA&#39;, 40)),
+ (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;SOUTH AFRICA&#39;, 48)),
+ (&#39;SENEGAL&#39;, (&#39;VENEZUELA&#39;, 50)),
+ (&#39;SEYCHELLES&#39;, (&#39;ISRAEL&#39;, 38)),
+ (&#39;SIERRA LEONE&#39;, (&#39;VENEZUELA&#39;, 46)),
+ (&#39;SINGAPORE&#39;, (&#39;SYRIA&#39;, 54)),
+ (&#39;SLOVENIA&#39;, (&#39;VENEZUELA&#39;, 47)),
+ (&#39;SOLOMON ISLANDS&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;SRI LANKA&#39;, (&#39;SYRIA&#39;, 57)),
+ (&#39;SWEDEN&#39;, (&#39;ISRAEL&#39;, 33)),
+ (&#39;SWITZERLAND&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 86)),
+ (&#39;TIMOR-LESTE&#39;, (&#39;ISRAEL&#39;, 45)),
+ (&#39;TOGO&#39;, (&#39;REPUBLIC OF THE CONGO&#39;, 68)),
+ (&#39;TURKEY&#39;, (&#39;TÜRKIYE&#39;, 67)),
+ (&#39;URUGUAY&#39;, (&#39;SYRIA&#39;, 33)),
+ (&#39;ZAMBIA&#39;, (&#39;SOUTH AFRICA&#39;, 45)),
+ (&#39;ZIMBABWE&#39;, (&#39;ISRAEL&#39;, 43))]</pre>
 </div>
 
 </div>
@@ -16503,12 +16405,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">changesFragile3</span><span class="o">=</span><span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
                  <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">Onlycountryisos</span><span class="p">)</span>
-                 <span class="k">if</span> <span class="mi">54</span><span class="o">==</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]}</span>
+                 <span class="k">if</span> <span class="mi">54</span><span class="o">==</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyMerge1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">87</span><span class="p">}</span>
 
 <span class="c1">#dict of matches</span>
 <span class="n">changesFragile3</span>
@@ -16529,17 +16431,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>{&#39;BOSNIA AND HERZEGOVINA&#39;: &#39;SYRIA &#39;,
- &#39;BURKINA FASO&#39;: &#39;SYRIA &#39;,
- &#39;MICRONESIA (FEDERATED STATES OF)&#39;: &#39;SYRIA &#39;,
- &#39;NEPAL&#39;: &#39;REPUBLIC OF THE CONGO &#39;,
- &#39;SINGAPORE&#39;: &#39;SYRIA &#39;}</pre>
+<pre>{}</pre>
 </div>
 
 </div>
@@ -16553,7 +16451,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Se realiza el merge final donde se une el DF propio (merge1) con la DF del profesor (countryisos)</span>
@@ -16576,7 +16474,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
@@ -16677,7 +16575,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>87</th>
       <td>UKRAINE</td>
       <td>8,374.40</td>
       <td>160,503</td>
@@ -16688,7 +16586,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UKR</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>88</th>
       <td>UGANDA</td>
       <td>1,144.40</td>
       <td>45,559</td>
@@ -16699,7 +16597,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UGA</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>89</th>
       <td>UZBEKISTAN</td>
       <td>2,964.80</td>
       <td>80,392</td>
@@ -16710,7 +16608,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UZB</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>90</th>
       <td>VIET NAM</td>
       <td>13,478.30</td>
       <td>406,452</td>
@@ -16721,7 +16619,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>VNM</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>91</th>
       <td>YEMEN</td>
       <td>1,386.30</td>
       <td>21,062</td>
@@ -16733,7 +16631,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>93 rows × 8 columns</p>
+<p>92 rows × 8 columns</p>
 </div>
 </div>
 
@@ -16748,7 +16646,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Se procede a limpiar la data segun se requiera</span>
@@ -16764,7 +16662,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Se cambia el nombre de las cabeceras </span>
@@ -16788,7 +16686,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 
 
 
@@ -16889,7 +16787,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>87</th>
       <td>UKRAINE</td>
       <td>8,374.40</td>
       <td>160,503</td>
@@ -16900,7 +16798,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UKR</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>88</th>
       <td>UGANDA</td>
       <td>1,144.40</td>
       <td>45,559</td>
@@ -16911,7 +16809,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UGA</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>89</th>
       <td>UZBEKISTAN</td>
       <td>2,964.80</td>
       <td>80,392</td>
@@ -16922,7 +16820,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UZB</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>90</th>
       <td>VIET NAM</td>
       <td>13,478.30</td>
       <td>406,452</td>
@@ -16933,7 +16831,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>VNM</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>91</th>
       <td>YEMEN</td>
       <td>1,386.30</td>
       <td>21,062</td>
@@ -16945,7 +16843,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>93 rows × 8 columns</p>
+<p>92 rows × 8 columns</p>
 </div>
 </div>
 
@@ -16960,7 +16858,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Se eliminan las comas dentro de la tabla</span>
@@ -16983,7 +16881,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
 
 
 
@@ -17084,7 +16982,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>87</th>
       <td>UKRAINE</td>
       <td>8374.40</td>
       <td>160,503</td>
@@ -17095,7 +16993,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UKR</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>88</th>
       <td>UGANDA</td>
       <td>1144.40</td>
       <td>45,559</td>
@@ -17106,7 +17004,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UGA</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>89</th>
       <td>UZBEKISTAN</td>
       <td>2964.80</td>
       <td>80,392</td>
@@ -17117,7 +17015,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UZB</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>90</th>
       <td>VIET NAM</td>
       <td>13478.30</td>
       <td>406,452</td>
@@ -17128,7 +17026,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>VNM</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>91</th>
       <td>YEMEN</td>
       <td>1386.30</td>
       <td>21,062</td>
@@ -17140,7 +17038,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>93 rows × 8 columns</p>
+<p>92 rows × 8 columns</p>
 </div>
 </div>
 
@@ -17155,7 +17053,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">merge2</span><span class="p">[</span><span class="s1">'AnnualGDP_$M'</span><span class="p">]</span><span class="o">=</span><span class="n">merge2</span><span class="p">[</span><span class="s1">'AnnualGDP_$M'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span>
@@ -17177,7 +17075,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -17278,7 +17176,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>87</th>
       <td>UKRAINE</td>
       <td>8374.40</td>
       <td>160503</td>
@@ -17289,7 +17187,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UKR</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>88</th>
       <td>UGANDA</td>
       <td>1144.40</td>
       <td>45559</td>
@@ -17300,7 +17198,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UGA</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>89</th>
       <td>UZBEKISTAN</td>
       <td>2964.80</td>
       <td>80392</td>
@@ -17311,7 +17209,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UZB</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>90</th>
       <td>VIET NAM</td>
       <td>13478.30</td>
       <td>406452</td>
@@ -17322,7 +17220,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>VNM</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>91</th>
       <td>YEMEN</td>
       <td>1386.30</td>
       <td>21062</td>
@@ -17334,7 +17232,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>93 rows × 8 columns</p>
+<p>92 rows × 8 columns</p>
 </div>
 </div>
 
@@ -17349,7 +17247,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">merge2</span><span class="p">[</span><span class="s1">'OilReserves_bblM'</span><span class="p">]</span><span class="o">=</span><span class="n">merge2</span><span class="p">[</span><span class="s1">'OilReserves_bblM'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span>
@@ -17371,7 +17269,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 
 
 
@@ -17472,7 +17370,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>87</th>
       <td>UKRAINE</td>
       <td>8374.40</td>
       <td>160503</td>
@@ -17483,7 +17381,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UKR</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>88</th>
       <td>UGANDA</td>
       <td>1144.40</td>
       <td>45559</td>
@@ -17494,7 +17392,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UGA</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>89</th>
       <td>UZBEKISTAN</td>
       <td>2964.80</td>
       <td>80392</td>
@@ -17505,7 +17403,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UZB</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>90</th>
       <td>VIET NAM</td>
       <td>13478.30</td>
       <td>406452</td>
@@ -17516,7 +17414,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>VNM</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>91</th>
       <td>YEMEN</td>
       <td>1386.30</td>
       <td>21062</td>
@@ -17528,7 +17426,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>93 rows × 8 columns</p>
+<p>92 rows × 8 columns</p>
 </div>
 </div>
 
@@ -17543,7 +17441,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">merge2</span><span class="p">[</span><span class="s1">'OfficialName'</span><span class="p">]</span><span class="o">=</span><span class="n">merge2</span><span class="p">[</span><span class="s1">'OfficialName'</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'¬†'</span><span class="p">,</span><span class="s1">' '</span><span class="p">)</span>
@@ -17565,7 +17463,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 
 
 
@@ -17666,7 +17564,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>87</th>
       <td>UKRAINE</td>
       <td>8374.40</td>
       <td>160503</td>
@@ -17677,7 +17575,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UKR</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>88</th>
       <td>UGANDA</td>
       <td>1144.40</td>
       <td>45559</td>
@@ -17688,7 +17586,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UGA</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>89</th>
       <td>UZBEKISTAN</td>
       <td>2964.80</td>
       <td>80392</td>
@@ -17699,7 +17597,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>UZB</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>90</th>
       <td>VIET NAM</td>
       <td>13478.30</td>
       <td>406452</td>
@@ -17710,7 +17608,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>VNM</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>91</th>
       <td>YEMEN</td>
       <td>1386.30</td>
       <td>21062</td>
@@ -17722,7 +17620,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>93 rows × 8 columns</p>
+<p>92 rows × 8 columns</p>
 </div>
 </div>
 
@@ -17730,6 +17628,38 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
